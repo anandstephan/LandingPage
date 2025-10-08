@@ -40,7 +40,7 @@ const Index = () => {
         "Weather-resistant design",
         "Maximum solar efficiency",
         "Maintenance-free operation",
-               "Maintenance-free operation"
+        "Maintenance-free operation"
       ]
     },
     {
@@ -56,7 +56,7 @@ const Index = () => {
     },
    {
     icon: "🛺",
-    title: "Auto Rickshaw Battery Pack",
+    title: "E-Rickshaw",
     description: "Durable and efficient battery packs designed for e-rickshaws and cargo vehicles.",
     features: [
       "Optimized for long daily routes",
