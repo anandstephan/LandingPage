@@ -39,7 +39,8 @@ const Index = () => {
         "Deep discharge capability",
         "Weather-resistant design",
         "Maximum solar efficiency",
-        "Maintenance-free operation"
+        "Maintenance-free operation",
+               "Maintenance-free operation"
       ]
     },
     {
@@ -52,7 +53,19 @@ const Index = () => {
         "Universal compatibility",
         "Technical support included"
       ]
-    }
+    },
+   {
+    icon: "🛺",
+    title: "Auto Rickshaw Battery Pack",
+    description: "Durable and efficient battery packs designed for e-rickshaws and cargo vehicles.",
+    features: [
+      "Optimized for long daily routes",
+      "High load-bearing capacity",
+      "Fast-charging with extended life",
+      "Low maintenance and reliable performance"
+    ]
+  }
+
   ];
 
   const benefits = [
@@ -152,7 +165,7 @@ const Index = () => {
               Comprehensive range of lithium battery solutions for every application
             </p>
           </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-3">
             {products.map((product, index) => (
               <ProductCard key={index} {...product} />
             ))}
